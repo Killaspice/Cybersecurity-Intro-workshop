@@ -93,8 +93,22 @@ Basic BASH Commands
 1. clear or ctrl+L
 2. pwd - print working directory/your location
 - we are at home folder of user cew140424@ubuntu-CEW in the exercise
+3. wget - download a file from the site given
 
-  
+Sometimes our terminal will hang because of an incomplete command. Hit ctrl+c to end process and start again (ctrl + c shows as ^C)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
