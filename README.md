@@ -89,25 +89,112 @@ What is BASH?
   1. user-friendly
   2. linux friendly
 
+CMD console
+1. type - print 
+2. dir - directory location you in
+3. mkdir - create
+4. cd - change directory
+5. cls- clear
+6. open notepad
+7. dir /r - show contents of folder, including other layers/hidden files in folder 
+
 Basic BASH Commands
 1. clear or ctrl+L
 2. pwd - print working directory/your location
 - we are at home folder of user cew140424@ubuntu-CEW in the exercise
 3. wget - download a file from the site given
+4. ls - list directory
+5. cat - print file
 
 Sometimes our terminal will hang because of an incomplete command. Hit ctrl+c to end process and start again (ctrl + c shows as ^C)
 
+Text Manipulation (Using BASH to analyse security)
+
+What is auth log? it is an authentication log for a linux's SSH service, it records all successful and failed attempts at logging into the machine via SSH
 
 
 
+Additional Commands to further analyse auth.log?
+
+How to filter?
+Use | command 
+1. grep filter for the specified word/term. | grep (word)
+- grep (word)
+
+2. You can chain filters
+- grep (word1) | grep (word2)
+
+3. exclude out target word filter
+- grep -v (word)
+
+4. counter
+- wc -l
+- shows count of entries/events/interactions
+
+5. see top part of output/print (top 10 lines default)
+- | head 
+
+6. see bottom part of output (bottom 10 lines default)
+- | tail 
+
+7. filter by columns
+- awk '{print X $column}'
+
+cat auth.log |grep Failed | grep root |grep -v invalid | awk '{print $11}'
+
+every space is separator
+
+
+NF-Y = to count from X step from right to lelft
+
+Why use NF-Y?
+- Because not all the lines have same column numbers with same data type
+- so there is some kind of standardized data placement/display where IP address is always 3 columns away from the right
 
 
 
+| sort
+Sort by number (from smallest to largest according to first character)
+9 is below, 1 is at top, the 100 will be top
+
+| uniq 
+Unique only works when sort is used first
+- always rmb to do sort first, then do unique
+
+| uniq-c
+Counts the number of times the unique variable shows up, like username for example
+
+| sort -n 
+- sort by numerical value, the higher value like 299 will be below
 
 
 
+Challenge part: determine how long is the duration from the start of the log to the first log for the target IP address? 
+
+start time of auth.log.2 = Jan 31 04:41:02
+first ip address timestamp = Jan 31 11:28:55
+
+7hrs 47min, 55seconds = 420 + 47min 55sec = 467min 55 sec = 28020sec + 53sec = 28075
 
 
+first timestamp = Jan 31 04:41:02 psimulator CRON[2372]: pam_unix(cron:session): session closed for user root
+first ip address's timestamp = Jan 31 11:28:55 psimulator sshd[11628]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=182.180.82.28  user=root
+
+You can use | head to show first 10 log events, and | tail to show bottom 10 log events.
+
+
+
+Qn: Assist the Security team in analyzing the auth.log.2 file and identify the number of unsuccessful access attempts made with the root username.
+
+Qn: The security team has identified a series of access attempts from a range of IP addresses and needs assistance in calculating how many unique IPs were responsible for these unsuccessful entries.
+
+Qn: Assist the investigators in identifying which IP address made the <a/b/c> number of unauthorized access attempts to the system.
+- highest
+- 2nd highest
+- how many IP address have made over 10 unauthorized entry attempts into the system?
+
+
+Link to CFC notes: https://cfcapac.notion.site/CEW140424-0461f8b65fcd48579ed9cd652d0cc426
 
 
 
