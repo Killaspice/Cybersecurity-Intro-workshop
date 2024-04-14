@@ -51,14 +51,50 @@ How do we differentiate between internal and external addresses?
 - but you only see that at like big offices with a lot of devices
 
 
+Shodan can collect unsecured webcamera data, paid accounts can see
+
+How to know if webcam you buy is secure? check model and version
+
+How to protect ourselves? 
+- Good password hygiene
+  1. use a different password for every account
+  2. use a STRONG password - 13 or more characters
+  3. Avoid modification of KNOWN words - eg. Password = P@s$w0rd!
+  4. use password generator
+  5. How to rmb? Use a password manager
+  6. change password regularly (maybe yearly, but best is every few months)
+
+What to do if password have been breached?
+1. change the password, not same as previous ones
+2. check if other info have been leaked
 
 
+What is Stenography?
+- Concept: Hiding data in the 2nd layer of another file
 
 
+What is Kali Linus?
+- It is an OS, designed for Digital Forensics(blue team) and Penetration testing(Red team)
+- 
+
+folder = directory
+
+What is SSH?
+- Secure SHell - allows us to connect to another computer via the terminal located somewhere else. You only see terminal. It is NOT Remote Desktop Protocol
 
 
+What is BASH?
+- BASH is a shell, it is a language used to interact with the system
+- Why BASH?
+  1. user-friendly
+  2. linux friendly
 
+Basic BASH Commands
+1. clear or ctrl+L
+2. pwd - print working directory/your location
+- we are at home folder of user cew140424@ubuntu-CEW in the exercise
 
+  
 
 
 
