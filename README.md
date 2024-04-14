@@ -39,7 +39,16 @@ How do we deal with the lack of IPv4?
 Division of internal and external IP address
 - Interval vs External IP/ Private vs Public IP
 
+External IP address
+- external IP address is leased to you by ISP
+- used for communication on the internet
 
+
+How do we differentiate between internal and external addresses?
+
+192.168.0.0 to 192.168.255.255 number range has been reserved for internal network/usage only
+10.0.0.0 to 10.255.255.255 number range also reserved for internal usage
+- but you only see that at like big offices with a lot of devices
 
 
 
