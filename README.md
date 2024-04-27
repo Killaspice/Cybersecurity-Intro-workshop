@@ -15,7 +15,7 @@ Link to CFC notes: https://cfcapac.notion.site/CEW140424-0461f8b65fcd48579ed9cd6
 ```HTTPS(Hyper Text Transfer Protocol Secure)```
 - More and more phishing websites have https though
 
-```Firefox``` would have warned not that the phishing site is not secure, google chrome did not
+```Firefox``` would have warned not that the phishing site is not secure, ```google chrome``` did not
 
 <h3>How to be more careful?</h3>
 - slow down
