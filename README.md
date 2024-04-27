@@ -120,10 +120,7 @@ Refer to lab practice project in Kali-linux VM
 
 
 <h2>Kali Linux</h2>
-
 <br>
-<br>
-
 
 <h3>What is Kali Linux</h3>
 - It is an OS, designed for Digital Forensics(blue team) and Penetration testing(Red team)
@@ -214,6 +211,7 @@ every space is separator
 
 
 ```NF-Y``` = to count from X step from right to lelft
+<br>
 
 <h4>Why use NF-Y?</h4>
 - Because not all the lines have same column numbers with same data type
