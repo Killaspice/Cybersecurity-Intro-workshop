@@ -156,12 +156,17 @@ folder = directory
 <br>
 
 <h3>Basic BASH Commands</h3>
-1. clear or ctrl+L
-2. pwd - print working directory/your location
-- we are at home folder of user cew140424@ubuntu-CEW in the exercise
-3. wget - download a file from the site given
-4. ls - list directory
-5. cat - print file
+
+<ul>
+  <li>1. clear or ctrl+L</li>
+  <li>2. pwd - print working directory/your location. we are at home folder of user cew140424@ubuntu-CEW in the exercise </li>
+  <li>3. wget - download a file from the site given</li>
+  <li>4. ls - list directory</li>
+  <li>5. cat - print file</li>
+</ul>
+
+<br>
+
 
 Sometimes our terminal will hang because of an incomplete command. Hit ```ctrl+c``` to end process and start again (ctrl + c shows as ```^C```)
 
@@ -178,6 +183,7 @@ It is an authentication log for a linux's SSH service, it records all successful
 
 <h4>How to filter?</h4>
 Use | command 
+
 1. grep filter for the specified word/term. | grep (word)
 - grep (word)
 
