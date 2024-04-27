@@ -81,11 +81,14 @@ Site that shows if your email has been found in a data breach: https://haveibeen
 
 
 ![Time it takes to brute force in 2022](https://github.com/agentjimlam/Cybersecurity-Intro-workshop/assets/165074052/fc147308-564e-4213-a4cf-926970134f68)
+<br>
 Source: https://www.hivesystems.com/blog/are-your-passwords-in-the-green
 
 ![Time it takes CHATGPT to brute force in 2022](https://github.com/agentjimlam/Cybersecurity-Intro-workshop/assets/165074052/93f15515-b54e-45f4-9167-44ceceb8b39c)
+<br>
 Source: https://www.hivesystems.com/blog/are-your-passwords-in-the-green
 
+<br>
 
 <strong>Right now, AI only takes 8 months even to break a 12 char long, upper and lowercase + symbols + numbers password </strong>
 
