@@ -1,11 +1,11 @@
 # Cybersecurity-Intro-workshop
 
 
-
-Fear, urgency, greed
+How hackers do manipulate other human beings?
+- Using Fear, urgency, greed
 
 Why it works?
-Emotions supersede common sense. Humans feel emotions first before logic.
+- Emotions supersede common sense. Humans feel emotions first before logic.
 
 
 HTTP(Hyper Text Transfer Protocol)
