@@ -70,15 +70,19 @@ How to know if webcam you buy is secure?
 Site that shows if your email has been found in a data breach: https://haveibeenpwned.com/
 
 <h4>How to protect ourselves?</h4>
-- Good password hygiene
-  1. use a different password for every account
-  2. use a STRONG password - 13 or more characters
-  3. Avoid modification of KNOWN words - eg. Password = P@s$w0rd!
-  4. use password generator
-  5. How to rmb? Use a password manager
-  6. change password regularly (maybe yearly, but best is every few months)
 
+Good password hygiene
+<ul>
+  <li>use a different password for every account</li>
+  <li>use a STRONG password - 13 or more characters</li>
+  <li>Avoid modification of KNOWN words - eg. Password = P@s$w0rd!</li>
+  <li>use password generator</li>
+  <li>How to rmb? Use a password manager</li>
+ <li>change password regularly (maybe yearly, but best is every few months)</li>
+</ul>
 
+<br>
+<br>
 
 ![Time it takes to brute force in 2022](https://github.com/agentjimlam/Cybersecurity-Intro-workshop/assets/165074052/fc147308-564e-4213-a4cf-926970134f68)
 <br>
