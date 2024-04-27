@@ -18,10 +18,12 @@ Link to CFC notes: https://cfcapac.notion.site/CEW140424-0461f8b65fcd48579ed9cd6
 ```Firefox``` would have warned not that the phishing site is not secure, ```google chrome``` did not
 
 <h3>How to be more careful?</h3>
-- slow down
-- use antivirus, firewall
-- ZERO TRUST POLICY - even if it seems like someone you know
-- bookmark legit sites you use
+<ul>
+<li></li>slow down</ul>
+<li>use antivirus, firewall</li>
+<li>ZERO TRUST POLICY - even if it seems like someone you know</li>
+<li>bookmark legit sites you use</li>
+</ul>
 
 <br>
 <br>
